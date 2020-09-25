@@ -149,25 +149,25 @@ void printOp(ConfigOp op) {
 			print("nop");
 			break;
 		case toggle:
-			print("toggle");
+			print(_TOGGLE_);
 			break;
 		case on:
-			print("on");
+			print(_ON_);
 			break;
 		case off:
-			print("off");
+			print(_OFF_);
 			break;
 		case timerNop:
-			print("timerNop");
+			print("Timer Nop");
 			break;
 		case timerToggle:
-			print("timerToggle");
+			print(_TTOGGLE_);
 			break;
 		case timerOn:
-			print("timerOn");
+			print(_TON_);
 			break;
 		case timerOff:
-			print("timerOff");
+			print(_TOFF_);
 			break;
 	};
 };
@@ -185,8 +185,9 @@ void printOutputState(int output) {
 	//print("This is output state print\r\n");
 	print ("output ");
 	printDec(output);
-	if (getOutputState(output)) print(" on");
-	else print(" off");
+	print(" ");
+	if (getOutputState(output)) print(_ON_);
+	else print(_OFF_);
 	print(ESC_NEWLINE);
 };
 void printConfigInput(int input) {
