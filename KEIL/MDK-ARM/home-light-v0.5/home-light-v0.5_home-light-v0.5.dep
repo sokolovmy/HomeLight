@@ -49,7 +49,7 @@ I (e:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7AE3C)
 I (e:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7AE3C)
 I (e:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7AE44)
 I (../Core/Inc/gpio.h)(0x5F65AE80)
-I (../holse/cons.h)(0x5F69BE74)
+I (../holse/cons.h)(0x5F6DB6F3)
 I (../holse/emCLI.h)(0x5F68B475)
 I (../USB_DEVICE/App/usbd_cdc_if.h)(0x5F65AE87)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5F65AE86)
@@ -130,7 +130,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5F65AE81)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5F65AE81)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x5F65AE87)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x5F65AE87)
-I (../holse/cons.h)(0x5F69BE74)
+I (../holse/cons.h)(0x5F6DB6F3)
 I (../holse/emCLI.h)(0x5F68B475)
 I (../USB_DEVICE/App/usbd_cdc_if.h)(0x5F65AE87)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5F65AE86)
@@ -393,7 +393,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h)(0x5F65AE81)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h)(0x5F65AE81)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h)(0x5F65AE86)
 I (../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h)(0x5F65AE86)
-I (../holse/cons.h)(0x5F69BE74)
+I (../holse/cons.h)(0x5F6DB6F3)
 I (../holse/emCLI.h)(0x5F68B475)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x5F65AE87)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x5F65AE87)
@@ -1339,8 +1339,8 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5F65AE87)
 I (e:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5EC7AE44)
 F (..\holse\emCLI.h)(0x5F68B475)()
-F (..\holse\cons.c)(0x5F6CB37E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../holse-I.\RTE\_home-light-v0.5-Ie:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-Ie:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o home-light-v0.5\cons.o --omf_browse home-light-v0.5\cons.crf --depend home-light-v0.5\cons.d)
-I (..\holse\cons.h)(0x5F69BE74)
+F (..\holse\cons.c)(0x5F6DB833)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../holse-I.\RTE\_home-light-v0.5-Ie:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-Ie:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o home-light-v0.5\cons.o --omf_browse home-light-v0.5\cons.crf --depend home-light-v0.5\cons.d)
+I (..\holse\cons.h)(0x5F6DB6F3)
 I (..\holse\emCLI.h)(0x5F68B475)
 I (../USB_DEVICE/App/usbd_cdc_if.h)(0x5F65AE87)
 I (../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h)(0x5F65AE86)
@@ -1393,7 +1393,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5F65AE87)
 I (..\holse\config.h)(0x5F6B1D67)
 I (..\holse\outputs.h)(0x5F6CACB2)
-F (..\holse\cons.h)(0x5F69BE74)()
+F (..\holse\cons.h)(0x5F6DB6F3)()
 F (..\holse\config.c)(0x5F6CA071)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../USB_DEVICE/App -I ../USB_DEVICE/Target -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../holse-I.\RTE\_home-light-v0.5-Ie:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-Ie:\Keil_v5\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o home-light-v0.5\config.o --omf_browse home-light-v0.5\config.crf --depend home-light-v0.5\config.d)
 I (..\holse\config.h)(0x5F6B1D67)
 I (e:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7AE3C)
