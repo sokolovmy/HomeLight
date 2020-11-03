@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name stm32-home-light-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32-home-light-rescue.lib)(options "")(descr ""))
+  (lib (name holse)(type Legacy)(uri ${KIPRJMOD}/libs/holse.lib)(options "")(descr ""))
+)
