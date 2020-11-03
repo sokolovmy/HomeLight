@@ -1,0 +1,1139 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1950 3050 2000 3050
+Wire Wire Line
+	1950 3000 1950 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF359F
+P 3750 2750
+AR Path="/5FAF359F" Ref="#PWR?"  Part="1" 
+AR Path="/5F465A3A/5FAF359F" Ref="#PWR?"  Part="1" 
+AR Path="/5FACC936/5FAF359F" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 3750 2500 50  0001 C CNN
+F 1 "GND" H 3755 2577 50  0000 C CNN
+F 2 "" H 3750 2750 50  0001 C CNN
+F 3 "" H 3750 2750 50  0001 C CNN
+	1    3750 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAF35A5
+P 3750 2850
+AR Path="/5F465A3A/5FAF35A5" Ref="C?"  Part="1" 
+AR Path="/5FAF35A5" Ref="C?"  Part="1" 
+AR Path="/5FACC936/5FAF35A5" Ref="C9"  Part="1" 
+F 0 "C9" V 3500 2850 50  0000 L CNN
+F 1 "0,1" V 3600 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 2850 50  0001 C CNN
+F 3 "~" H 3750 2850 50  0001 C CNN
+	1    3750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF35AB
+P 1950 2800
+AR Path="/5FAF35AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F465A3A/5FAF35AB" Ref="#PWR?"  Part="1" 
+AR Path="/5FACC936/5FAF35AB" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 1950 2550 50  0001 C CNN
+F 1 "GND" H 1955 2627 50  0000 C CNN
+F 2 "" H 1950 2800 50  0001 C CNN
+F 3 "" H 1950 2800 50  0001 C CNN
+	1    1950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAF35B1
+P 1950 2900
+AR Path="/5F465A3A/5FAF35B1" Ref="C?"  Part="1" 
+AR Path="/5FAF35B1" Ref="C?"  Part="1" 
+AR Path="/5FACC936/5FAF35B1" Ref="C8"  Part="1" 
+F 0 "C8" V 1700 2900 50  0000 L CNN
+F 1 "0,1" V 1800 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1950 2900 50  0001 C CNN
+F 3 "~" H 1950 2900 50  0001 C CNN
+	1    1950 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 1800
+Wire Wire Line
+	4700 1800 4850 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	4550 1800 4700 1800
+Connection ~ 4550 1800
+Wire Wire Line
+	4400 1800 4550 1800
+Connection ~ 4400 1800
+Wire Wire Line
+	4250 1800 4400 1800
+Connection ~ 4250 1800
+Wire Wire Line
+	4100 1800 4250 1800
+Connection ~ 4100 1800
+Wire Wire Line
+	3950 1800 4100 1800
+Connection ~ 3950 1800
+Wire Wire Line
+	3800 1800 3950 1800
+Connection ~ 3800 1800
+Wire Wire Line
+	3050 1800 3800 1800
+Connection ~ 3050 1800
+Wire Wire Line
+	2900 1800 3050 1800
+Connection ~ 2900 1800
+Wire Wire Line
+	2750 1800 2900 1800
+Connection ~ 2750 1800
+Wire Wire Line
+	2600 1800 2750 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2450 1800 2600 1800
+Connection ~ 2450 1800
+Wire Wire Line
+	2300 1800 2450 1800
+Connection ~ 2300 1800
+Wire Wire Line
+	2150 1800 2300 1800
+Connection ~ 2150 1800
+Wire Wire Line
+	2000 1800 2150 1800
+Wire Wire Line
+	4850 2250 4700 2250
+Wire Wire Line
+	4850 2100 4850 2250
+Wire Wire Line
+	4600 2100 4600 2250
+Wire Wire Line
+	4700 2100 4600 2100
+Wire Wire Line
+	4500 2100 4500 2250
+Wire Wire Line
+	4550 2100 4500 2100
+Wire Wire Line
+	3800 2250 3800 2100
+Wire Wire Line
+	4000 2250 3800 2250
+Wire Wire Line
+	4100 2150 4100 2250
+Wire Wire Line
+	3950 2150 4100 2150
+Wire Wire Line
+	3950 2100 3950 2150
+Wire Wire Line
+	4200 2100 4200 2250
+Wire Wire Line
+	4100 2100 4200 2100
+Wire Wire Line
+	4300 2100 4300 2250
+Wire Wire Line
+	4250 2100 4300 2100
+Wire Wire Line
+	4400 2100 4400 2250
+$Comp
+L Device:LED LD16
+U 1 1 5FAF35EE
+P 4850 1950
+F 0 "LD16" H 4600 1950 50  0000 C CNN
+F 1 "LD16" H 4800 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4850 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4850 1950 50  0001 C CNN
+	1    4850 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD15
+U 1 1 5FAF35F4
+P 4700 1950
+F 0 "LD15" H 4450 1950 50  0000 C CNN
+F 1 "LD15" H 4650 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4700 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4700 1950 50  0001 C CNN
+	1    4700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD14
+U 1 1 5FAF35FA
+P 4550 1950
+F 0 "LD14" H 4300 1950 50  0000 C CNN
+F 1 "LD14" H 4500 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4550 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD13
+U 1 1 5FAF3600
+P 4400 1950
+F 0 "LD13" H 4150 1950 50  0000 C CNN
+F 1 "LD13" H 4350 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4400 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4400 1950 50  0001 C CNN
+	1    4400 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD12
+U 1 1 5FAF3606
+P 4250 1950
+F 0 "LD12" H 4000 1950 50  0000 C CNN
+F 1 "LD12" H 4200 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4250 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4250 1950 50  0001 C CNN
+	1    4250 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD11
+U 1 1 5FAF360C
+P 4100 1950
+F 0 "LD11" H 3850 1950 50  0000 C CNN
+F 1 "LD11" H 4050 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4100 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD10
+U 1 1 5FAF3612
+P 3950 1950
+F 0 "LD10" H 3700 1950 50  0000 C CNN
+F 1 "LD10" H 3900 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3950 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 3950 1950 50  0001 C CNN
+	1    3950 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD9
+U 1 1 5FAF3618
+P 3800 1950
+F 0 "LD9" H 3550 1950 50  0000 C CNN
+F 1 "LD9" H 3750 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3800 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 5FAF361E
+P 4600 2450
+F 0 "RN4" V 4800 2450 50  0000 C CNN
+F 1 "1k" V 4900 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 4875 2450 50  0001 C CNN
+F 3 "~" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 5FAF3624
+P 4200 2450
+F 0 "RN3" V 3783 2450 50  0000 C CNN
+F 1 "1k" V 3874 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 4475 2450 50  0001 C CNN
+F 3 "~" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2250 2900 2250
+Wire Wire Line
+	3050 2100 3050 2250
+Wire Wire Line
+	2800 2100 2800 2250
+Wire Wire Line
+	2900 2100 2800 2100
+Wire Wire Line
+	2700 2100 2700 2250
+Wire Wire Line
+	2750 2100 2700 2100
+Wire Wire Line
+	2000 2250 2000 2100
+Wire Wire Line
+	2200 2250 2000 2250
+Wire Wire Line
+	2300 2150 2300 2250
+Wire Wire Line
+	2150 2150 2300 2150
+Wire Wire Line
+	2150 2100 2150 2150
+Wire Wire Line
+	2400 2100 2400 2250
+Wire Wire Line
+	2300 2100 2400 2100
+Wire Wire Line
+	2500 2100 2500 2250
+Wire Wire Line
+	2450 2100 2500 2100
+Wire Wire Line
+	2600 2100 2600 2250
+$Comp
+L Device:LED LD8
+U 1 1 5FAF363A
+P 3050 1950
+F 0 "LD8" H 2800 1950 50  0000 C CNN
+F 1 "LD8" H 3000 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3050 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD7
+U 1 1 5FAF3640
+P 2900 1950
+F 0 "LD7" H 2650 1950 50  0000 C CNN
+F 1 "LD7" H 2850 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2900 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2900 1950 50  0001 C CNN
+	1    2900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD6
+U 1 1 5FAF3646
+P 2750 1950
+F 0 "LD6" H 2500 1950 50  0000 C CNN
+F 1 "LD6" H 2700 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2750 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2750 1950 50  0001 C CNN
+	1    2750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD5
+U 1 1 5FAF364C
+P 2600 1950
+F 0 "LD5" H 2350 1950 50  0000 C CNN
+F 1 "LD5" H 2550 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2600 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2600 1950 50  0001 C CNN
+	1    2600 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD4
+U 1 1 5FAF3652
+P 2450 1950
+F 0 "LD4" H 2200 1950 50  0000 C CNN
+F 1 "LD4" H 2400 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2450 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2450 1950 50  0001 C CNN
+	1    2450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD3
+U 1 1 5FAF3658
+P 2300 1950
+F 0 "LD3" H 2050 1950 50  0000 C CNN
+F 1 "LD3" H 2250 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2300 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD2
+U 1 1 5FAF365E
+P 2150 1950
+F 0 "LD2" H 1900 1950 50  0000 C CNN
+F 1 "LD2" H 2100 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2150 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD1
+U 1 1 5FAF3664
+P 2000 1950
+F 0 "LD1" H 1750 1950 50  0000 C CNN
+F 1 "LD1" H 1950 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2000 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 5FAF366A
+P 2800 2450
+F 0 "RN2" V 3000 2450 50  0000 C CNN
+F 1 "1k" V 3100 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 3075 2450 50  0001 C CNN
+F 3 "~" H 2800 2450 50  0001 C CNN
+	1    2800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5FAF3670
+P 2400 2450
+F 0 "RN1" V 1983 2450 50  0000 C CNN
+F 1 "1k" V 2074 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 2675 2450 50  0001 C CNN
+F 3 "~" H 2400 2450 50  0001 C CNN
+	1    2400 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3100 2650
+Wire Wire Line
+	2200 3600 2200 3450
+Wire Wire Line
+	5350 3600 2200 3600
+Wire Wire Line
+	5350 2650 5350 3600
+Wire Wire Line
+	4900 2650 5350 2650
+Wire Wire Line
+	4500 4400 4650 4400
+$Comp
+L power:GND #PWR019
+U 1 1 5FAF368A
+P 4650 4400
+F 0 "#PWR019" H 4650 4150 50  0001 C CNN
+F 1 "GND" H 4655 4227 50  0000 C CNN
+F 2 "" H 4650 4400 50  0001 C CNN
+F 3 "" H 4650 4400 50  0001 C CNN
+	1    4650 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 4100 4500 3950
+$Comp
+L Device:R R11
+U 1 1 5FAF3693
+P 4500 4250
+F 0 "R11" V 4500 4000 50  0000 C CNN
+F 1 "100k" V 4400 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 4250 50  0001 C CNN
+F 3 "~" H 4500 4250 50  0001 C CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4050 2800 4100
+$Comp
+L Device:R R10
+U 1 1 5FAF369C
+P 2800 4250
+F 0 "R10" V 2800 4000 50  0000 C CNN
+F 1 "100k" V 2700 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 4250 50  0001 C CNN
+F 3 "~" H 2800 4250 50  0001 C CNN
+	1    2800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4050 2050 4050
+Connection ~ 2800 4050
+Wire Wire Line
+	2800 3450 2800 4050
+Wire Wire Line
+	2500 4100 2500 3500
+Wire Wire Line
+	4600 4050 2800 4050
+Wire Wire Line
+	4600 3450 4600 4050
+Connection ~ 2700 3950
+Wire Wire Line
+	4500 3450 4500 3950
+Wire Wire Line
+	2700 3950 2050 3950
+Wire Wire Line
+	2700 3450 2700 3950
+Connection ~ 2400 3850
+Wire Wire Line
+	4200 3850 2400 3850
+Wire Wire Line
+	4200 3450 4200 3850
+Wire Wire Line
+	2400 3850 2400 3450
+Wire Wire Line
+	2050 3850 2400 3850
+Connection ~ 2500 3500
+Wire Wire Line
+	4300 3500 2500 3500
+Wire Wire Line
+	4300 3450 4300 3500
+Text GLabel 2050 4050 0    50   Input ~ 0
+LED_Enable
+Text GLabel 2050 3950 0    50   Input ~ 0
+LED_Push_Data
+Text GLabel 2050 3850 0    50   Input ~ 0
+LED_CLK
+Text GLabel 1900 4750 0    50   Input ~ 0
+LED_Ser
+Wire Wire Line
+	2500 3450 2500 3500
+$Comp
+L Device:R R9
+U 1 1 5FAF36C1
+P 2500 4250
+F 0 "R9" V 2500 4000 50  0000 C CNN
+F 1 "100k" V 2400 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 4250 50  0001 C CNN
+F 3 "~" H 2500 4250 50  0001 C CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5FAF36C7
+P 3300 3050
+F 0 "#PWR016" H 3300 2800 50  0001 C CNN
+F 1 "GND" H 3150 3000 50  0000 C CNN
+F 2 "" H 3300 3050 50  0001 C CNN
+F 3 "" H 3300 3050 50  0001 C CNN
+	1    3300 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5FAF36CD
+P 5100 3050
+F 0 "#PWR020" H 5100 2800 50  0001 C CNN
+F 1 "GND" H 5105 2877 50  0000 C CNN
+F 2 "" H 5100 3050 50  0001 C CNN
+F 3 "" H 5100 3050 50  0001 C CNN
+	1    5100 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC595 U3
+U 1 1 5FAF36D3
+P 4400 3050
+F 0 "U3" H 3800 2750 50  0000 C CNN
+F 1 "74HC595" H 3800 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4400 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5FAF36D9
+P 2600 3050
+F 0 "U2" H 2000 2700 50  0000 C CNN
+F 1 "74HC595" H 2000 2600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2600 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3050 5750 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5700 3000 5700 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF641B
+P 7550 2750
+AR Path="/5FAF641B" Ref="#PWR?"  Part="1" 
+AR Path="/5F465A3A/5FAF641B" Ref="#PWR?"  Part="1" 
+AR Path="/5FACC936/5FAF641B" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7550 2500 50  0001 C CNN
+F 1 "GND" H 7555 2577 50  0000 C CNN
+F 2 "" H 7550 2750 50  0001 C CNN
+F 3 "" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAF6425
+P 7550 2850
+AR Path="/5F465A3A/5FAF6425" Ref="C?"  Part="1" 
+AR Path="/5FAF6425" Ref="C?"  Part="1" 
+AR Path="/5FACC936/5FAF6425" Ref="C11"  Part="1" 
+F 0 "C11" V 7300 2850 50  0000 L CNN
+F 1 "0,1" V 7400 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 2850 50  0001 C CNN
+F 3 "~" H 7550 2850 50  0001 C CNN
+	1    7550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAF642F
+P 5700 2800
+AR Path="/5FAF642F" Ref="#PWR?"  Part="1" 
+AR Path="/5F465A3A/5FAF642F" Ref="#PWR?"  Part="1" 
+AR Path="/5FACC936/5FAF642F" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5700 2550 50  0001 C CNN
+F 1 "GND" H 5705 2627 50  0000 C CNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAF6439
+P 5700 2900
+AR Path="/5F465A3A/5FAF6439" Ref="C?"  Part="1" 
+AR Path="/5FAF6439" Ref="C?"  Part="1" 
+AR Path="/5FACC936/5FAF6439" Ref="C10"  Part="1" 
+F 0 "C10" V 5450 2900 50  0000 L CNN
+F 1 "0,1" V 5550 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5700 2900 50  0001 C CNN
+F 3 "~" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3050 5700 3050
+Connection ~ 8600 1800
+Wire Wire Line
+	8600 1800 8650 1800
+$Comp
+L power:GND #PWR026
+U 1 1 5FAF6447
+P 8650 1800
+F 0 "#PWR026" H 8650 1550 50  0001 C CNN
+F 1 "GND" H 8655 1627 50  0000 C CNN
+F 2 "" H 8650 1800 50  0001 C CNN
+F 3 "" H 8650 1800 50  0001 C CNN
+	1    8650 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 1800 8600 1800
+Connection ~ 8450 1800
+Wire Wire Line
+	8300 1800 8450 1800
+Connection ~ 8300 1800
+Wire Wire Line
+	8150 1800 8300 1800
+Connection ~ 8150 1800
+Wire Wire Line
+	8000 1800 8150 1800
+Connection ~ 8000 1800
+Wire Wire Line
+	7850 1800 8000 1800
+Connection ~ 7850 1800
+Wire Wire Line
+	7700 1800 7850 1800
+Connection ~ 7700 1800
+Wire Wire Line
+	7550 1800 7700 1800
+Connection ~ 7550 1800
+Wire Wire Line
+	6800 1800 7550 1800
+Connection ~ 6800 1800
+Wire Wire Line
+	6650 1800 6800 1800
+Connection ~ 6650 1800
+Wire Wire Line
+	6500 1800 6650 1800
+Connection ~ 6500 1800
+Wire Wire Line
+	6350 1800 6500 1800
+Connection ~ 6350 1800
+Wire Wire Line
+	6200 1800 6350 1800
+Connection ~ 6200 1800
+Wire Wire Line
+	6050 1800 6200 1800
+Connection ~ 6050 1800
+Wire Wire Line
+	5900 1800 6050 1800
+Connection ~ 5900 1800
+Wire Wire Line
+	5750 1800 5900 1800
+Wire Wire Line
+	8600 2250 8450 2250
+Wire Wire Line
+	8600 2100 8600 2250
+Wire Wire Line
+	8350 2100 8350 2250
+Wire Wire Line
+	8450 2100 8350 2100
+Wire Wire Line
+	8250 2100 8250 2250
+Wire Wire Line
+	8300 2100 8250 2100
+Wire Wire Line
+	7550 2250 7550 2100
+Wire Wire Line
+	7750 2250 7550 2250
+Wire Wire Line
+	7850 2150 7850 2250
+Wire Wire Line
+	7700 2150 7850 2150
+Wire Wire Line
+	7700 2100 7700 2150
+Wire Wire Line
+	7950 2100 7950 2250
+Wire Wire Line
+	7850 2100 7950 2100
+Wire Wire Line
+	8050 2100 8050 2250
+Wire Wire Line
+	8000 2100 8050 2100
+Wire Wire Line
+	8150 2100 8150 2250
+$Comp
+L Device:LED LD32
+U 1 1 5FAF647E
+P 8600 1950
+F 0 "LD32" H 8350 1950 50  0000 C CNN
+F 1 "LD32" H 8550 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8600 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8600 1950 50  0001 C CNN
+	1    8600 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD31
+U 1 1 5FAF6488
+P 8450 1950
+F 0 "LD31" H 8200 1950 50  0000 C CNN
+F 1 "LD31" H 8400 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8450 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8450 1950 50  0001 C CNN
+	1    8450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD30
+U 1 1 5FAF6492
+P 8300 1950
+F 0 "LD30" H 8050 1950 50  0000 C CNN
+F 1 "LD30" H 8250 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8300 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8300 1950 50  0001 C CNN
+	1    8300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD29
+U 1 1 5FAF649C
+P 8150 1950
+F 0 "LD29" H 7900 1950 50  0000 C CNN
+F 1 "LD29" H 8100 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8150 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8150 1950 50  0001 C CNN
+	1    8150 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD28
+U 1 1 5FAF64A6
+P 8000 1950
+F 0 "LD28" H 7750 1950 50  0000 C CNN
+F 1 "LD28" H 7950 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8000 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 8000 1950 50  0001 C CNN
+	1    8000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD27
+U 1 1 5FAF64B0
+P 7850 1950
+F 0 "LD27" H 7600 1950 50  0000 C CNN
+F 1 "LD27" H 7800 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7850 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 7850 1950 50  0001 C CNN
+	1    7850 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD26
+U 1 1 5FAF64BA
+P 7700 1950
+F 0 "LD26" H 7450 1950 50  0000 C CNN
+F 1 "LD26" H 7650 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7700 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 7700 1950 50  0001 C CNN
+	1    7700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD25
+U 1 1 5FAF64C4
+P 7550 1950
+F 0 "LD25" H 7300 1950 50  0000 C CNN
+F 1 "LD25" H 7500 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 7550 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 7550 1950 50  0001 C CNN
+	1    7550 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN8
+U 1 1 5FAF64CE
+P 8350 2450
+F 0 "RN8" V 8550 2450 50  0000 C CNN
+F 1 "1k" V 8650 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 8625 2450 50  0001 C CNN
+F 3 "~" H 8350 2450 50  0001 C CNN
+	1    8350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN7
+U 1 1 5FAF64D8
+P 7950 2450
+F 0 "RN7" V 7533 2450 50  0000 C CNN
+F 1 "1k" V 7624 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 8225 2450 50  0001 C CNN
+F 3 "~" H 7950 2450 50  0001 C CNN
+	1    7950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2250 6650 2250
+Wire Wire Line
+	6800 2100 6800 2250
+Wire Wire Line
+	6550 2100 6550 2250
+Wire Wire Line
+	6650 2100 6550 2100
+Wire Wire Line
+	6450 2100 6450 2250
+Wire Wire Line
+	6500 2100 6450 2100
+Wire Wire Line
+	5750 2250 5750 2100
+Wire Wire Line
+	5950 2250 5750 2250
+Wire Wire Line
+	6050 2150 6050 2250
+Wire Wire Line
+	5900 2150 6050 2150
+Wire Wire Line
+	5900 2100 5900 2150
+Wire Wire Line
+	6150 2100 6150 2250
+Wire Wire Line
+	6050 2100 6150 2100
+Wire Wire Line
+	6250 2100 6250 2250
+Wire Wire Line
+	6200 2100 6250 2100
+Wire Wire Line
+	6350 2100 6350 2250
+$Comp
+L Device:LED LD24
+U 1 1 5FAF64F2
+P 6800 1950
+F 0 "LD24" H 6550 1950 50  0000 C CNN
+F 1 "LD24" H 6750 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6800 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6800 1950 50  0001 C CNN
+	1    6800 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD23
+U 1 1 5FAF64FC
+P 6650 1950
+F 0 "LD23" H 6400 1950 50  0000 C CNN
+F 1 "LD23" H 6600 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6650 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6650 1950 50  0001 C CNN
+	1    6650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD22
+U 1 1 5FAF6506
+P 6500 1950
+F 0 "LD22" H 6250 1950 50  0000 C CNN
+F 1 "LD22" H 6450 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6500 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6500 1950 50  0001 C CNN
+	1    6500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD21
+U 1 1 5FAF6510
+P 6350 1950
+F 0 "LD21" H 6100 1950 50  0000 C CNN
+F 1 "LD21" H 6300 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6350 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6350 1950 50  0001 C CNN
+	1    6350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD20
+U 1 1 5FAF651A
+P 6200 1950
+F 0 "LD20" H 5950 1950 50  0000 C CNN
+F 1 "LD20" H 6150 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6200 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6200 1950 50  0001 C CNN
+	1    6200 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD19
+U 1 1 5FAF6524
+P 6050 1950
+F 0 "LD19" H 5800 1950 50  0000 C CNN
+F 1 "LD19" H 6000 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6050 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 6050 1950 50  0001 C CNN
+	1    6050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD18
+U 1 1 5FAF652E
+P 5900 1950
+F 0 "LD18" H 5650 1950 50  0000 C CNN
+F 1 "LD18" H 5850 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5900 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED LD17
+U 1 1 5FAF6538
+P 5750 1950
+F 0 "LD17" H 5500 1950 50  0000 C CNN
+F 1 "LD17" H 5700 1800 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5750 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN6
+U 1 1 5FAF6542
+P 6550 2450
+F 0 "RN6" V 6750 2450 50  0000 C CNN
+F 1 "1k" V 6850 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 6825 2450 50  0001 C CNN
+F 3 "~" H 6550 2450 50  0001 C CNN
+	1    6550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN5
+U 1 1 5FAF654C
+P 6150 2450
+F 0 "RN5" V 5733 2450 50  0000 C CNN
+F 1 "1k" V 5824 2450 50  0000 C CNN
+F 2 "holse:R_Array_Convex_4x0603_reverse" V 6425 2450 50  0001 C CNN
+F 3 "~" H 6150 2450 50  0001 C CNN
+	1    6150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 5FAF6557
+P 5600 3050
+F 0 "#PWR021" H 5600 2900 50  0001 C CNN
+F 1 "VCC" H 5615 3223 50  0000 C CNN
+F 2 "" H 5600 3050 50  0001 C CNN
+F 3 "" H 5600 3050 50  0001 C CNN
+	1    5600 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 2650 9100 3600
+Wire Wire Line
+	8650 2650 9100 2650
+$Comp
+L power:VCC #PWR025
+U 1 1 5FAF6563
+P 7500 3050
+F 0 "#PWR025" H 7500 2900 50  0001 C CNN
+F 1 "VCC" H 7515 3223 50  0000 C CNN
+F 2 "" H 7500 3050 50  0001 C CNN
+F 3 "" H 7500 3050 50  0001 C CNN
+	1    7500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5FAF656D
+P 7050 3050
+F 0 "#PWR023" H 7050 2800 50  0001 C CNN
+F 1 "GND" H 7055 2877 50  0000 C CNN
+F 2 "" H 7050 3050 50  0001 C CNN
+F 3 "" H 7050 3050 50  0001 C CNN
+	1    7050 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5FAF6577
+P 8850 3050
+F 0 "#PWR027" H 8850 2800 50  0001 C CNN
+F 1 "GND" H 8855 2877 50  0000 C CNN
+F 2 "" H 8850 3050 50  0001 C CNN
+F 3 "" H 8850 3050 50  0001 C CNN
+	1    8850 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC595 U7
+U 1 1 5FAF6581
+P 8150 3050
+F 0 "U7" H 7550 2750 50  0000 C CNN
+F 1 "74HC595" H 7550 2650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8150 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8150 3050 50  0001 C CNN
+	1    8150 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC595 U6
+U 1 1 5FAF658B
+P 6350 3050
+F 0 "U6" H 5750 2700 50  0000 C CNN
+F 1 "74HC595" H 5750 2600 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6350 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3450 6550 4050
+Wire Wire Line
+	6550 4050 4600 4050
+Connection ~ 4600 4050
+Wire Wire Line
+	8350 3450 8350 4050
+Wire Wire Line
+	8350 4050 6550 4050
+Connection ~ 6550 4050
+Wire Wire Line
+	6450 3450 6450 3950
+Wire Wire Line
+	6450 3950 4500 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	8250 3450 8250 3950
+Wire Wire Line
+	8250 3950 6450 3950
+Connection ~ 6450 3950
+Wire Wire Line
+	4300 3500 6250 3500
+Wire Wire Line
+	6250 3500 6250 3450
+Connection ~ 4300 3500
+Wire Wire Line
+	6250 3500 8050 3500
+Wire Wire Line
+	8050 3500 8050 3450
+Connection ~ 6250 3500
+Wire Wire Line
+	4200 3850 6150 3850
+Wire Wire Line
+	6150 3850 6150 3450
+Connection ~ 4200 3850
+Wire Wire Line
+	6150 3850 7950 3850
+Wire Wire Line
+	7950 3850 7950 3450
+Connection ~ 6150 3850
+Wire Wire Line
+	2700 3950 4500 3950
+Connection ~ 5750 1800
+Wire Wire Line
+	4850 1800 5750 1800
+Wire Wire Line
+	1900 4750 7750 4750
+Wire Wire Line
+	7750 4750 7750 3450
+Wire Wire Line
+	5950 3450 5950 3600
+Wire Wire Line
+	5950 3600 9100 3600
+Wire Wire Line
+	6850 2650 7150 2650
+Wire Wire Line
+	7150 2650 7150 3700
+Wire Wire Line
+	7150 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 3450
+Wire Wire Line
+	7500 3050 7550 3050
+Wire Wire Line
+	7550 3050 7550 2950
+Connection ~ 7550 3050
+Wire Wire Line
+	3750 2950 3750 3050
+Wire Wire Line
+	3750 3050 3800 3050
+$Comp
+L power:VCC #PWR0107
+U 1 1 5F93F0B0
+P 1950 4400
+F 0 "#PWR0107" H 1950 4250 50  0001 C CNN
+F 1 "VCC" H 1965 4573 50  0000 C CNN
+F 2 "" H 1950 4400 50  0001 C CNN
+F 3 "" H 1950 4400 50  0001 C CNN
+	1    1950 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4400 2500 4400
+Wire Wire Line
+	2500 4400 1950 4400
+Connection ~ 2500 4400
+$Comp
+L power:VCC #PWR0109
+U 1 1 5F956653
+P 1600 3050
+F 0 "#PWR0109" H 1600 2900 50  0001 C CNN
+F 1 "VCC" H 1615 3223 50  0000 C CNN
+F 2 "" H 1600 3050 50  0001 C CNN
+F 3 "" H 1600 3050 50  0001 C CNN
+	1    1600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3050 1600 3050
+Connection ~ 1950 3050
+$Comp
+L power:VCC #PWR0110
+U 1 1 5F95F099
+P 3500 3050
+F 0 "#PWR0110" H 3500 2900 50  0001 C CNN
+F 1 "VCC" H 3515 3223 50  0000 C CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3050 3750 3050
+Connection ~ 3750 3050
+$EndSCHEMATC
