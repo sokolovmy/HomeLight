@@ -62,9 +62,9 @@ void Error_Handler(void);
 #define IN_LOAD_GPIO_Port GPIOA
 #define IN_INHB_Pin GPIO_PIN_2
 #define IN_INHB_GPIO_Port GPIOA
-#define OUT_ENABLE_Pin GPIO_PIN_3
+#define OUT_ENABLE_Pin GPIO_PIN_4
 #define OUT_ENABLE_GPIO_Port GPIOA
-#define OUT_PUSH_DATA_Pin GPIO_PIN_4
+#define OUT_PUSH_DATA_Pin GPIO_PIN_3
 #define OUT_PUSH_DATA_GPIO_Port GPIOA
 #define EEPROM_CS_Pin GPIO_PIN_0
 #define EEPROM_CS_GPIO_Port GPIOB

@@ -10,9 +10,9 @@ uint16_t curStateOutputs = 0; //TODO: Use for this var backup registers
 
 
 void enableOutputs(void){
-	//HAL_GPIO_WritePin(OUT_ENABLE_GPIO_Port, OUT_ENABLE_Pin, GPIO_PIN_RESET);
 	setOutputs(curStateOutputs);
 	HAL_GPIO_WritePin(LED_ENABLE_GPIO_Port, LED_ENABLE_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(OUT_ENABLE_GPIO_Port, OUT_ENABLE_Pin, GPIO_PIN_RESET);
 };
 	
 
@@ -23,8 +23,8 @@ void setOutputs(uint16_t outputs){
 	HAL_GPIO_WritePin(LED_PUSH_DATA_GPIO_Port, LED_PUSH_DATA_Pin, GPIO_PIN_RESET);
 	HAL_GPIO_WritePin(LED_PUSH_DATA_GPIO_Port, LED_PUSH_DATA_Pin, GPIO_PIN_SET);
 	//for out: toggle pin to push data to out registers
-	HAL_GPIO_WritePin(LED_PUSH_DATA_GPIO_Port, OUT_PUSH_DATA_Pin, GPIO_PIN_RESET);
-	HAL_GPIO_WritePin(LED_PUSH_DATA_GPIO_Port, OUT_PUSH_DATA_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(OUT_PUSH_DATA_GPIO_Port, OUT_PUSH_DATA_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(OUT_PUSH_DATA_GPIO_Port, OUT_PUSH_DATA_Pin, GPIO_PIN_SET);
 };
 
 void setOutputOn(int num) {

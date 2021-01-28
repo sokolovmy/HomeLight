@@ -48,6 +48,7 @@
 "home-light-v0.5\config.o"
 "home-light-v0.5\stm32_eeprom_spi.o"
 "home-light-v0.5\outputs.o"
+"home-light-v0.5\input.o"
 --library_type=microlib --strict --scatter "home-light-v0.5\home-light-v0.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

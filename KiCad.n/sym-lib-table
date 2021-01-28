@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name holse)(type Legacy)(uri ${KIPRJMOD}/holse.lib)(options "")(descr ""))
+  (lib (name holse2)(type Legacy)(uri D:/!HOME_LIGHT/git/HomeLight/KiCad.n/libs/AP5100WG-7.lib)(options "")(descr ""))
+)

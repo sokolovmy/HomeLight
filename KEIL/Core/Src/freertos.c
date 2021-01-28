@@ -29,6 +29,7 @@
 #include "cons.h"
 #include "config.h"
 #include "outputs.h"
+#include "input.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -179,6 +180,7 @@ extern SPI_HandleTypeDef hspi2;
   * @param  argument: Not used
   * @retval None
   */
+uint16_t sdtdata = 0;
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void *argument)
 {
@@ -186,14 +188,21 @@ void StartDefaultTask(void *argument)
 	ResetUsbConnection();
   MX_USB_DEVICE_Init();
 	consInit();
+	//inputInit();
 	loadFromFlash();
 	enableOutputs();
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
   for(;;)
   {
+		
 		//LedsWalk(&hspi2);
-    osDelay(500);
+    osDelay(50);
+	  HAL_GPIO_WritePin(IN_LOAD_GPIO_Port, IN_LOAD_Pin, GPIO_PIN_RESET);
+	  osDelay(50);
+		HAL_GPIO_WritePin(IN_LOAD_GPIO_Port, IN_LOAD_Pin, GPIO_PIN_SET);
+		//HAL_GPIO_WritePin(IN_LOAD_GPIO_Port, IN_LOAD_Pin, GPIO_PIN_RESET);
+		HAL_SPI_Receive(&hspi2, (uint8_t *)&sdtdata, 2, 50);
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -214,7 +223,7 @@ void StartTask02(void *argument)
 		HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_SET);
     osDelay(20);
 		HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_RESET);
-		osDelay(2000);
+		osDelay(500);
   }
   /* USER CODE END StartTask02 */
 }
